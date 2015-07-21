@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="PrimaryColor">#8bc34a</color>
+    <color name="PrimaryDarkColor">#689f38</color>
+    <color name="SlideTabColor">#dcedc8</color>
+    <color name="SlideTabColorIndicator">#ffeb3b</color>
+    <color name="fab_color_pressed">#ffeb3b</color>
+    <color name="fab_color_normal">#ffeb3b</color> -->
+
+    <color name="PrimaryColor">#009688</color>
+    <color name="PrimaryDarkColor">#00796b</color>
+    <color name="SlideTabColor">#b2dfdb</color>
+    <color name="SlideTabColorIndicator">#ffffff</color>
+    <color name="fab_color_pressed">#c2185b</color>
+    <color name="fab_color_normal">#e91e63</color>
+
+</resources>

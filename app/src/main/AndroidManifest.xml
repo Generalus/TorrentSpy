@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.thesn.torrentspy.app"  >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".MyApplication"
+        android:largeHeap="true">
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.add.AddMovieActivity"/>
+        <activity android:name=".activities.add.AddSerialActivity"/>
+        <activity android:name=".activities.add.AddGameActivity"/>
+        <activity android:name=".activities.EditActivity"/>
+        <activity android:name=".activities.AppConfigActivity"/>
+        <activity android:name=".activities.AboutActivity"/>
+
+        <receiver android:name=".AlarmReceiver" android:enabled="true" android:exported="false">
+            <intent-filter android:priority="1001">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+        <service
+                android:name=".download.DownloadService"
+                android:enabled="true"
+                android:exported="false">
+            <intent-filter>
+                <action android:name=".MyService"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_download" android:title="Проверить файлы"
+        android:orderInCategory="1" app:showAsAction="always" android:icon="@drawable/ic_refresh_white_18dp"
+            android:onClick="download"/>
+    <item android:id="@+id/action_cancel" android:title="Отмена проверки"
+          android:orderInCategory="2" app:showAsAction="always" android:icon="@drawable/ic_cancel_white_18dp"
+          android:onClick="cancel"/>
+</menu>

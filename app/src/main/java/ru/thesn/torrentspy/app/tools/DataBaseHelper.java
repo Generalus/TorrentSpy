@@ -18,8 +18,8 @@ public class DataBaseHelper extends SQLiteOpenHelper implements BaseColumns {
     private SQLiteDatabase db;
     private boolean isDbAvailable = true;
 
-    public static final int DATABASE_VERSION = 2;
-    public static final String DATABASE_NAME = "torrentspy___";
+    public static final int DATABASE_VERSION = 1;
+    public static final String DATABASE_NAME = "torrent_spy";
     public static final String TABLE_MOVIES = "movies";
     public static final String TABLE_GAMES = "games";
     public static final String TABLE_GAMES_GROUPS = "games_release_groups";

@@ -5,4 +5,4 @@
 Буду рад, если приложение окажется вам полезным.<br>
 Разработчик: TheSN (Generalus)
 
-<image src="http://6.firepic.org/6/images/2015-07/22/yrxdnq47pbzv.jpg" align="center" />
+<image src="http://s018.radikal.ru/i519/1703/10/6ec9a7324a9c.png" align="center" />
